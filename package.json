@@ -1,0 +1,16 @@
+{
+  "name": "botbellapizza",
+  "type": "commonjs",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "node src/server.js",
+    "start": "node ./build/server.js"
+  },
+  "dependencies": {
+    "nodemon": "^2.0.22",
+    "typescript": "^5.4.2",
+    "venom-bot": "^5.0.21"
+  }
+}
