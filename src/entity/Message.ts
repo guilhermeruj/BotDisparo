@@ -1,4 +1,4 @@
-import * as fs from "fs";
+import * as fs from 'fs';
 
 interface MessageData {
   mensagem: string;
@@ -25,7 +25,7 @@ export class Message {
   }
 
   static loadFromFile(filename: string): Message {
-    const jsonString = fs.readFileSync(filename, "utf-8");
+    const jsonString = fs.readFileSync(filename, 'utf-8');
     const jsonMessage = JSON.parse(jsonString);
     return new Message(jsonMessage);
   }
